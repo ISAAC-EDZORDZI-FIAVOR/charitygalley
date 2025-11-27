@@ -996,6 +996,398 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 </script>
+
+
+
+<!-- FOUNDER SECTION - INSERT AFTER PROCESS-SEC -->
+<section class="space" id="founder-sec">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Founder Image Side -->
+      <div class="col-xl-6 mb-30 mb-xl-0">
+        <div class="founder-img-wrapper">
+          <div class="founder-main-img">
+            <img src="assets/img/team/victor.png" alt="Agbeko Odione Kumordzie" class="founder-photo" />
+            <div class="founder-badge">
+              <i class="fas fa-award"></i>
+              <span>Founder & President</span>
+            </div>
+          </div>
+          <div class="founder-quote-card">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <p class="quote-text">"No child should learn computer on a blackboard."</p>
+            <span class="quote-author">- Agbeko Odione Kumordzie</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Founder Bio Side -->
+      <div class="col-xl-6">
+        <div class="ps-xxl-5 ps-xl-2 ms-xl-1">
+          <div class="title-area mb-32">
+            <span class="sub-title">
+              <img src="assets/img/theme-img/title_icon.svg" alt="Icon" />
+              Meet Our Founder
+            </span>
+            <h2 class="sec-title">Agbeko Odione Kumordzie</h2>
+            <p class="founder-subtitle">
+              <i class="fas fa-briefcase"></i> Certified Public Accountant (CPA) | 
+              <i class="fas fa-heart ms-2"></i> Philanthropist | 
+              <i class="fas fa-users ms-2"></i> "Proff Double Double"
+            </p>
+          </div>
+
+          <div class="founder-bio">
+            <p class="bio-text">
+              Agbeko Odione Kumordzie is a Ghanaian-American professional and philanthropist who founded the Charity Galley Foundation for Education in honor of his beloved mother, <strong>Charity Ghalley</strong>. Born and raised in Agbozume, Volta Region, Ghana, Agbeko's journey from humble beginnings to becoming a CPA in the United States embodies the transformative power of education.
+            </p>
+            <p class="bio-text">
+              The turning point came after his mother's passing. Instead of building a personal mansion, Agbeko chose to create something that would impact generations—a legacy that honors his mother's kindness, strength, and unwavering belief in education.
+            </p>
+            <p class="bio-text">
+              During a visit to Ghana, he was shocked to discover children in his hometown learning ICT on chalkboards without ever touching a real computer. This reality ignited his mission to bridge the digital divide and bring world-class ICT education to underserved communities.
+            </p>
+          </div>
+
+          <!-- Key Achievements -->
+          <div class="founder-achievements">
+            <div class="achievement-item">
+              <div class="achievement-icon">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <div class="achievement-content">
+                <h4>Built US-Standard ICT Labs</h4>
+                <p>30-seater modern facilities with motorized desks</p>
+              </div>
+            </div>
+            <div class="achievement-item">
+              <div class="achievement-icon">
+                <i class="fas fa-hand-holding-heart"></i>
+              </div>
+              <div class="achievement-content">
+                <h4>Personal Investment</h4>
+                <p>Funded projects from personal income & invited global support</p>
+              </div>
+            </div>
+            <div class="achievement-item">
+              <div class="achievement-icon">
+                <i class="fas fa-globe-africa"></i>
+              </div>
+              <div class="achievement-content">
+                <h4>Diaspora Inspiration</h4>
+                <p>Inspiring Africans abroad to invest meaningfully back home</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Personal Touch -->
+          <div class="founder-personal-note">
+            <i class="fas fa-info-circle"></i>
+            <p>
+              Affectionately known as <strong>"Proff Double Double"</strong> on social media—a father of two sets of twins who uses his platform to inspire change and mobilize support for transformative community development across Ghana.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOUNDER SECTION STYLING -->
+<style>
+/* Founder Section */
+#founder-sec {
+  background: linear-gradient(135deg, #f9fafb 0%, #ffffff 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+#founder-sec::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(1, 125, 3, 0.05) 0%, transparent 70%);
+  border-radius: 50%;
+}
+
+/* Founder Image Wrapper */
+.founder-img-wrapper {
+  position: relative;
+}
+
+.founder-main-img {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 15px 40px rgba(1, 125, 3, 0.15);
+}
+
+.founder-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.founder-main-img:hover .founder-photo {
+  transform: scale(1.05);
+}
+
+/* Founder Badge */
+.founder-badge {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: linear-gradient(135deg, #017d03 0%, #015a02 100%);
+  color: white;
+  padding: 12px 20px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: 0 4px 15px rgba(1, 125, 3, 0.3);
+  animation: badgePulse 2s ease-in-out infinite;
+}
+
+@keyframes badgePulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.founder-badge i {
+  font-size: 18px;
+}
+
+/* Founder Quote Card */
+.founder-quote-card {
+  position: relative;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  margin-top: -40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  border-left: 4px solid #017d03;
+  z-index: 2;
+}
+
+.quote-icon {
+  color: #017d03;
+  font-size: 32px;
+  opacity: 0.2;
+  margin-bottom: 10px;
+}
+
+.quote-text {
+  font-size: 18px;
+  font-style: italic;
+  color: #1f2937;
+  margin: 0 0 10px 0;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.quote-author {
+  font-size: 14px;
+  color: #6b7280;
+  font-weight: 600;
+}
+
+/* Founder Bio Text */
+.founder-subtitle {
+  color: #017d03;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 15px 0 25px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.founder-subtitle i {
+  color: #017d03;
+  font-size: 14px;
+}
+
+.founder-bio {
+  margin-bottom: 30px;
+}
+
+.bio-text {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #4b5563;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+.bio-text strong {
+  color: #017d03;
+  font-weight: 700;
+}
+
+/* Founder Achievements */
+.founder-achievements {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.achievement-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  border-left: 3px solid #017d03;
+}
+
+.achievement-item:hover {
+  transform: translateX(10px);
+  box-shadow: 0 6px 20px rgba(1, 125, 3, 0.15);
+}
+
+.achievement-icon {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #017d03 0%, #015a02 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 22px;
+  flex-shrink: 0;
+  box-shadow: 0 4px 10px rgba(1, 125, 3, 0.2);
+}
+
+.achievement-content h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1f2937;
+  margin: 0 0 5px 0;
+}
+
+.achievement-content p {
+  font-size: 14px;
+  color: #6b7280;
+  margin: 0;
+  line-height: 1.5;
+}
+
+/* Personal Note */
+.founder-personal-note {
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+}
+
+.founder-personal-note i {
+  color: #017d03;
+  font-size: 24px;
+  flex-shrink: 0;
+  margin-top: 3px;
+}
+
+.founder-personal-note p {
+  font-size: 14px;
+  color: #15803d;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.founder-personal-note strong {
+  color: #14532d;
+  font-weight: 700;
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+  .founder-quote-card {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .founder-subtitle {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 767px) {
+  .founder-badge {
+    font-size: 12px;
+    padding: 10px 15px;
+  }
+  
+  .founder-quote-card {
+    margin-top: -30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 20px;
+  }
+  
+  .quote-text {
+    font-size: 16px;
+  }
+  
+  .founder-subtitle {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  
+  .bio-text {
+    font-size: 14px;
+  }
+  
+  .achievement-item {
+    padding: 15px;
+  }
+  
+  .achievement-icon {
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+  }
+  
+  .achievement-content h4 {
+    font-size: 15px;
+  }
+  
+  .achievement-content p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 575px) {
+  .founder-badge {
+    position: static;
+    margin-bottom: 15px;
+    justify-content: center;
+  }
+  
+  .achievement-item:hover {
+    transform: translateX(5px);
+  }
+}
+</style>
+
+
     <section class="bg-smoke2 space" id="shop-sec">
       <div class="container text-center">
         <div class="title-area text-center">
